@@ -47,7 +47,7 @@ import sqlite3
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import statsmodels.tsa.api as tsa
+#import statsmodels.tsa.api as tsa
 from collections import defaultdict
 from pandas import Series, DataFrame
 from operator import itemgetter
@@ -693,9 +693,9 @@ def window_test(df, intervals, windows):
 
     return result_df
 
-
+'''
 def autoregressive(original_df, intervals=INTERVALS, rs_how='last'):
-    ''' unfinished '''
+    'not implemented: not finished '
     for intv in intervals:
         kdf = original_df.resample(intv, how=rs_how)
         for k in kdf.keys():
@@ -709,6 +709,7 @@ def autoregressive(original_df, intervals=INTERVALS, rs_how='last'):
             preds = model.predict(0, len(test.values))
             rmse = np.sqrt(mean_squared_error(test.values, preds))
             print rmse
+'''
 
 
 def main():
