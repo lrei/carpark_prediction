@@ -15,8 +15,8 @@ The particular dataset that was provided to me consisted of a set of gzipped jso
 
 
 Additional materials:
-[Report](http://www.scribd.com/doc/197263647/PREDICTING-THE-AVAILABILITY-OF-PARKING-SPACES-IN-LJUBLJANA)
-[Presentation slides](http://www.scribd.com/doc/197262974/Predicting-The-Availability-of-Parking-Spaces-in-Ljubljana)
+* [Report](http://www.scribd.com/doc/197263647/PREDICTING-THE-AVAILABILITY-OF-PARKING-SPACES-IN-LJUBLJANA)
+* [Presentation slides](http://www.scribd.com/doc/197262974/Predicting-The-Availability-of-Parking-Spaces-in-Ljubljana)
 
 
 Notes: 
